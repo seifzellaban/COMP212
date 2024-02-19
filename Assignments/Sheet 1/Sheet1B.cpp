@@ -36,7 +36,7 @@ int main() {
   // Get coordinates for two points
   cout << "Enter coordinates for first point:\n";
   getPoint(x1, y1);
-  cout << "\nEnter coordinates for second point:\n";
+  cout << "\nuEnter coordinates for second point:\n";
   getPoint(x2, y2);
 
   // Display points
