@@ -1,6 +1,25 @@
 {
-  "files.associations": {
-    "iostream": "cpp",
-    "iomanip": "cpp"
-  }
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "L1S2/.vscode": true,
+        "**/.vscode": true,
+        "L1S2/*.*": true,
+        ".vscode": true,
+        "L1S2/output": true,
+        "**/output": true,
+        "output": true
+    },
+    "explorerExclude.backup": {},
+    "files.associations": {
+        "*.tcc": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Cascadia Code"
 }

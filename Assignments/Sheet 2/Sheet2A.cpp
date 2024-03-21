@@ -11,7 +11,7 @@ struct Data {
 
 struct Employee {
   Data E;
-  float net_s;
+  float net_s = E.salary - E.salary * (E.tax / 100);
 
   void read() {
     cout << "Enter name: ";
@@ -22,7 +22,6 @@ struct Employee {
     cin >> E.salary;
     cout << "Enter tax: ";
     cin >> E.tax;
-    net_s = E.salary - E.salary * (E.tax / 100);
   }
 
   void display() {
