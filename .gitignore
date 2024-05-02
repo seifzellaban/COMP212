@@ -35,3 +35,5 @@ Testing.cpp
 .editorconfig
 /Midterm Revision
 /Projects
+/.vs
+/.vscode
