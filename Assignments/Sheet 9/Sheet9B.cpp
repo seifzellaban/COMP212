@@ -132,14 +132,14 @@ public:
 };
 void main()
 {
- Drive d;
- Drive1 d1;
- Drive2 d2;
+  Drive d;
+  Drive1 d1;
+  Drive2 d2;
 
- Base *b1,*b2,*b3;
-b1=&d;
-b2=&d1;
-b3=&d2;
-b1->display();
+  Base* b1, * b2, * b3;
+  b1 = &d;
+  b2 = &d1;
+  b3 = &d2;
+  b1->display();
 
 }
